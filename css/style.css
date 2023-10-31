@@ -108,7 +108,7 @@ body{
     z-index: 1;
 }
   
-.modal-content {
+.modall-content {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -119,16 +119,16 @@ body{
 
 .close {
     position: absolute;
-    top: -10px;
-    right: -40px;
-    font-size: 40px;
+    top: -0.5rem;
+    right: -2rem;
+    font-size: 2rem;
     cursor: pointer;
     color: #1C930D;
     font-weight: 700;
     background-color: #252525;
-    padding: 0 10px;
+    padding: 0 0.5rem;
 }
-
+/* fin video */
 
 
 /* Sobre mi Perfil inicio: */
@@ -149,9 +149,9 @@ body{
     text-underline-offset: 10px;
 }
 .perfil{
-    width: 28rem;
+    width: 29rem;
     text-align: center;
-    padding: 4rem;
+    padding: 3rem;
     border: 3px solid #1C930D;
     border-radius: 50%;
     transition: background-color 0.5s;
@@ -213,10 +213,10 @@ body{
     text-align: center;
 }
 .img-item-proyectos{
-    width: 70px;
+    width: 4rem;
 }
 .img-item-proyectos-max{
-    height: 70px;
+    height: 4rem;
 }
 .set-item-proyectos{
     margin: 0 2rem;
@@ -225,7 +225,7 @@ body{
     text-align: center;
 }
 .img-item-knows{
-    width: 50px;
+    width: 3rem;
 }
 .item-proyectos{
     display: flex;
@@ -236,18 +236,37 @@ body{
 .item-knows{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.lest-knows{
+    grid-column: 2/3;
+    /* grid-row: 3;
+    grid-column: 2; */
 }
 .set-item-knows{
     margin: 0.4rem 0.8rem;
+}
+
+.set-item-proyectos a{
+    text-decoration: none;
+    color: #EDEDED;
+}
+.link-desc-item-proyectos:hover{
+    font-size: 1rem;
 }
 
 .conte-img-item-certi{
     text-align: center;
 }
 .img-item-certi{
-    width: 80px;
+    width: 5rem;
+    /* text-align: center; */
+}
+ol, ul{
+    padding-left: 0;
 }
 .set-item-certi{
+    margin: 0;
     margin-bottom: 2rem;
 }
 .conte-img-div{
@@ -256,9 +275,11 @@ body{
 .img-div{
     position: absolute;
     width: 40%;
-    top: -430px;
-    left: 30%;
-    z-index: 0;
+    left: 50%;
+    transform: translate(-50%, -140%);
+    /* top: -430px;
+    left: 30%; */
+    z-index: -1;
 }
 
 
@@ -272,7 +293,7 @@ body{
     font-family: 'Cabin', sans-serif;
     color: #EDEDED;
     font-size: 1.5rem;
-    width: 740px;
+    width: 46rem;
     text-align: center;
     margin: 0;
     padding: 0 0 2rem 0;
@@ -288,7 +309,7 @@ body{
     font-family: 'Libre Baskerville', serif;
     color: #EDEDED;
     font-size: 1.8rem;
-    width: 700px;
+    width: 42rem;
     text-align: center;
     padding-top: 1rem;
     border-radius: 10px;
@@ -359,7 +380,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 8rem 0;
+    margin: 7rem 0;
 }
 .img-item-contacto{
     width: 7rem;
@@ -383,5 +404,6 @@ body{
     color: #EDEDED;
     border-top: 3px solid #1C930D;
     padding: 0.5rem 0 0 2rem;
+    font-size: 1rem;
 }
 

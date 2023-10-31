@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
     <link rel="stylesheet" href="./css/style.css">
     <title>Sobre mi</title>
 </head>
@@ -36,7 +40,7 @@
     </nav>
     <!-- contenedor de video -->
     <div class="modal" id="video-modal">
-        <div class="modal-content">
+        <div class="modall-content">
             <span class="close" id="close-video">&times;</span>
             <iframe id="youtube-iframe" width="560" height="315" src="https://www.youtube.com/embed/mmjnNpRWjE4?si=hhJz6cdUVWuOYGcT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
@@ -66,12 +70,16 @@
                 <h4 class="subtitle-portafolio">Proyectos</h4>
                 <div class="item-proyectos">
                     <ul class="set-item-proyectos">
-                        <li class="conte-img-item-proyectos"><img src="./img/paginaweb.png" alt="icono de pagina" class="img-item-proyectos"></li>
-                        <li class="desc-item-proyectos">1ra HV</li>
+                        <li class="conte-img-item-proyectos"><a href="https://otto-menza.github.io/hojadevida/" class="link-img-item-proyectos" target="_blank"><img src="./img/paginaweb.png" alt="icono de pagina" class="img-item-proyectos"></a></li>
+                        <li class="desc-item-proyectos"><a href="https://otto-menza.github.io/hojadevida/" class="link-desc-item-proyectos" target="_blank">1ra HV</a></li>
                     </ul>
                     <ul class="set-item-proyectos">
-                        <li class="conte-img-item-proyectos"><img src="./img/maximum.png" alt="Logo de pagina Maximum" class="img-item-proyectos-max"></li>
-                        <li class="desc-item-proyectos">Maximum</li>
+                        <li class="conte-img-item-proyectos"><a href="https://otto-menza.github.io/maximum_2/" class="link-img-item-proyectos" target="_blank"><img src="./img/maximum.png" alt="Logo de pagina Maximum" class="img-item-proyectos-max"></a></li>
+                        <li class="desc-item-proyectos"><a href="https://otto-menza.github.io/maximum_2/" class="link-desc-item-proyectos" target="_blank">Maximum</a></li>
+                    </ul>
+                    <ul class="set-item-proyectos">
+                        <li class="conte-img-item-proyectos"><a href="https://otto-menza.github.io/maximum_2/" class="link-img-item-proyectos" target="_blank"><img src="./img/app.png" alt="Logo de pagina Maximum" class="img-item-proyectos-max"></a></li>
+                        <li class="desc-item-proyectos"><a href="https://otto-menza.github.io/maximum_2/" class="link-desc-item-proyectos" target="_blank">Diseño app</a></li>
                     </ul>
                 </div>
             </div>
@@ -102,7 +110,7 @@
                         <li class="conte-img-item-knows"><img src="./img/mysql.png" alt="mysql" class="img-item-knows"></li>
                         <li class="desc-item-knows">Básico</li>
                     </ul>
-                    <ul class="set-item-knows">
+                    <ul class="set-item-knows lest-knows">
                         <li class="conte-img-item-knows"><img src="./img/linux.png" alt="linux" class="img-item-knows"></li>
                         <li class="desc-item-knows">Básico</li>
                     </ul>
@@ -167,24 +175,24 @@
         <h3 class="title" id="contacto">Contacto</h3>
         <div class="conte-contacto">
             <ul class="set-item-contacto">
-                <li class="conte-img-item-contacto"><a href="tel:+573125017606" class="link-img-item-contecto"><img src="./img/telefono.png" alt="telefono" class="img-item-contacto"></a></li>
-               <li class="item-title-dato"><a href="tel:+573125017606" class="link-item-title-dato">Teléfono</a></li>
-               <li class="item-dato"><a href="tel:+573125017606" class="link-item-dato">+57 312 501 7606</a></li>
+                <li class="conte-img-item-contacto"><a href="tel:+573125017606" class="link-img-item-contecto"><img src="./img/telefono.png" alt="telefono" class="img-item-contacto" target="_blank"></a></li>
+               <li class="item-title-dato"><a href="tel:+573125017606" class="link-item-title-dato" target="_blank">Teléfono</a></li>
+               <li class="item-dato"><a href="tel:+573125017606" class="link-item-dato" target="_blank">+57 312 501 7606</a></li>
             </ul>
             <ul class="set-item-contacto">
-                <li class="conte-img-item-contacto"><a href="mailto:otoniel.jump@gmail.com" class="link-img-item-contecto"><img src="./img/correo.png" alt="correo" class="img-item-contacto"></a></li>
-               <li class="item-title-dato"><a href="mailto:otoniel.jump@gmail.com" class="link-item-title-dato">Correo</a></li>
-               <li class="item-dato"><a href="mailto:otoniel.jump@gmail.com" class="link-item-dato">otoniel.jump@gmail.com</a></li>
+                <li class="conte-img-item-contacto"><a href="mailto:otoniel.jump@gmail.com" class="link-img-item-contecto" target="_blank"><img src="./img/correo.png" alt="correo" class="img-item-contacto"></a></li>
+               <li class="item-title-dato"><a href="mailto:otoniel.jump@gmail.com" class="link-item-title-dato" target="_blank">Correo</a></li>
+               <li class="item-dato"><a href="mailto:otoniel.jump@gmail.com" class="link-item-dato" target="_blank">otoniel.jump@gmail.com</a></li>
             </ul>
             <ul class="set-item-contacto">
-                <li class="conte-img-item-contacto"><a href="https://github.com/Otto-Menza" class="link-img-item-contecto"><img src="./img/github.png" alt="telefono" class="img-item-contacto"></a></li>
-               <li class="item-title-dato"><a href="https://github.com/Otto-Menza" class="link-item-title-dato">GitHub</a></li>
-               <li class="item-dato"><a href="https://github.com/Otto-Menza" class="link-item-dato">User: Otto-Menza</a></li>
+                <li class="conte-img-item-contacto"><a href="https://github.com/Otto-Menza" class="link-img-item-contecto" target="_blank"><img src="./img/github.png" alt="telefono" class="img-item-contacto"></a></li>
+               <li class="item-title-dato"><a href="https://github.com/Otto-Menza" class="link-item-title-dato" target="_blank">GitHub</a></li>
+               <li class="item-dato"><a href="https://github.com/Otto-Menza" class="link-item-dato" target="_blank">User: Otto-Menza</a></li>
             </ul>
             <ul class="set-item-contacto">
-                <li class="conte-img-item-contacto"><a href="https://www.linkedin.com/in/otoniel-menza-638692283/" class="link-img-item-contecto"><img src="./img/linkedin.png" alt="telefono" class="img-item-contacto"></a></li>
-               <li class="item-title-dato"><a href="https://www.linkedin.com/in/otoniel-menza-638692283/" class="link-item-title-dato">LinkedIn</a></li>
-               <li class="item-dato"><a href="https://www.linkedin.com/in/otoniel-menza-638692283/" class="link-item-dato">User: Otoniel Menza</a></li>
+                <li class="conte-img-item-contacto"><a href="https://www.linkedin.com/in/otoniel-menza-638692283/" class="link-img-item-contecto" target="_blank"><img src="./img/linkedin.png" alt="telefono" class="img-item-contacto"></a></li>
+               <li class="item-title-dato"><a href="https://www.linkedin.com/in/otoniel-menza-638692283/" class="link-item-title-dato" target="_blank">LinkedIn</a></li>
+               <li class="item-dato"><a href="https://www.linkedin.com/in/otoniel-menza-638692283/" class="link-item-dato" target="_blank">User: Otoniel Menza</a></li>
             </ul>
         </div>
     </div>
@@ -196,5 +204,7 @@
 
     <!-- llamando al js -->
     <script src="./js/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
