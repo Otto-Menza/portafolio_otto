@@ -19,6 +19,44 @@ body{
     background-color:#252525;
     margin: 0;
 }
+
+/* navbar boostrap */
+.navbar{
+    background-color: #252525 !important;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 3px solid #1C930D;
+    z-index: 100;
+}
+.navbar-brand{
+    color: #EDEDED;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: color 0.5s;
+}
+.navbar-brand:hover{
+    color: #1C930D;
+}
+.nav-link{
+    font-family: 'Itim', cursive;
+    color:#EDEDED;
+    font-size: 1.4rem;;
+    color: #EDEDED;
+    transition: color 0.3s, font-size 0.3s;
+}
+.nav-link:hover{
+    color: #1C930D;
+    text-decoration: underline 2px #1C930D;
+    text-underline-offset: 5px;
+    font-size: 1.5rem;
+}
+.navbar-toggler{
+    background-color: #EDEDED;
+}
+
+/* FIN  navbar boostrap*/
 .pie-top{
     position: fixed;
     width: 100%;
@@ -407,3 +445,75 @@ ol, ul{
     font-size: 1rem;
 }
 
+
+/* Responsive */
+@media (max-width: 1100px){
+    .img-div{
+        transform: translate(-50%, -150%);
+    }
+}
+@media (max-width: 1000px){
+    .img-div{
+        display: none;
+    }
+}
+@media(max-width: 900px){
+    .desc-sobre-mi{
+        flex-direction: column;
+        margin-top: 8rem;
+    }
+    .perfil{
+        margin: 1rem auto;
+    }
+    .conte-contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .experiencia{
+        padding: 0 5%;
+    }
+}
+@media (max-width: 715px){
+    .comillas{
+        margin-top: 1.5rem;
+    }
+}
+@media (max-width: 730px){
+    .nom-item-estudios{
+        padding: 0 0.5rem;
+        width: 90%;
+    }
+    .lugar-item-estudios{
+        padding: 0 0.5rem;
+        width: 90%;
+    }
+    .set-item-estudios{
+        width: 90%;
+    }
+    .item-portafolio{
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px){
+    .perfil{
+        width: 80%;
+    }
+    .conte-contacto{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 400px){
+    .item-proyectos{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .conte-img-item-proyectos{
+        margin: 1rem;
+    }
+}
+@media (max-width: 300px){
+    .title-sobre-mi{
+        font-size: 2rem;
+    }
+}

@@ -23,22 +23,59 @@
     <title>Sobre mi</title>
 </head>
 <body>
-    <nav class="pie-top">
-        <ul class="nombre">
-            <li class="item-nombre"> <a href="#" id="open-video" class="nombre-otto">Otto Menza</a></li>
-        </ul>
-        <ul class="menu">
-            <li class="item-menu"><a href="#" class="item-men">Sobre mi</a></li>
-            <li class="item-menu"><a href="#portafolio" class="item-men">Portafolio</a></li>
-            <li class="item-menu"><a href="#experiencia" class="item-men">Experiencia</a></li>
-            <li class="item-menu"><a href="#estudios" class="item-men">Estudios</a></li>
-            <li class="item-menu"><a href="#contacto" class="item-men">contacto</a></li>
-        </ul>
-        <ul class="modo-oscuro">
-            <li class="item-oscuro"><a href="./claro.html" class="link-oscuro"><img src="./img/bombilla.png" alt="cambio modo oscuro" class="bombillo"></a></li>
-        </ul>
-    </nav>
-    <!-- contenedor de video -->
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#" id="open-video">Otto Menza</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portafolio">Portafolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#estudios">Estudios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <a href="./claro.html" class="link-oscuro"><img src="./img/bombilla.png" alt="cambio modo oscuro" class="bombillo"></a>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+
+        <!-- <nav class="pie-top">
+            <ul class="nombre">
+                <li class="item-nombre"> <a href="#" id="open-video" class="nombre-otto">Otto Menza</a></li>
+            </ul>
+            <ul class="menu">
+                <li class="item-menu"><a href="#" class="item-men">Sobre mi</a></li>
+                <li class="item-menu"><a href="#portafolio" class="item-men">Portafolio</a></li>
+                <li class="item-menu"><a href="#experiencia" class="item-men">Experiencia</a></li>
+                <li class="item-menu"><a href="#estudios" class="item-men">Estudios</a></li>
+                <li class="item-menu"><a href="#contacto" class="item-men">contacto</a></li>
+            </ul>
+            <ul class="modo-oscuro">
+                <li class="item-oscuro"><a href="./claro.html" class="link-oscuro"><img src="./img/bombilla.png" alt="cambio modo oscuro" class="bombillo"></a></li>
+            </ul>
+        </nav> -->
+    </header>
+    <body>
+
+        <!-- contenedor de video -->
     <div class="modal" id="video-modal">
         <div class="modall-content">
             <span class="close" id="close-video">&times;</span>
@@ -196,6 +233,9 @@
             </ul>
         </div>
     </div>
+        
+    </body>
+    
     <footer>
         <div class="conte-footer">
             <h3 class="footer">Copyright</h3>
@@ -203,8 +243,9 @@
     </footer>
 
     <!-- llamando al js -->
-    <script src="./js/script.js"></script>
+    <script src="./js/script-dos.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>

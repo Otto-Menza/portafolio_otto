@@ -21,3 +21,6 @@ document.getElementById('open-video').addEventListener('click', function() {
     document.getElementById('video-modal').style.display = 'none';
     stopYouTubeVideo();
   });
+
+
+    
