@@ -378,6 +378,7 @@ ol, ul{
     border-right: 3px solid #1C930D;
     transition: background-color 0.5s, padding 0.5s;
 }
+
 .nom-item-estudios{
     width: 45rem;
     font-family: 'Cabin', sans-serif;
@@ -446,6 +447,8 @@ ol, ul{
 }
 
 
+
+
 /* Responsive */
 @media (max-width: 1100px){
     .img-div{
@@ -493,23 +496,98 @@ ol, ul{
     .item-portafolio{
         flex-direction: column;
     }
+    .modall-content iframe{
+        width: 28rem; 
+    }
 }
 @media (max-width: 500px){
     .perfil{
-        width: 80%;
+        width: 90%;
+        padding: 0.5rem 1rem;
+        border-radius: 20%;
     }
-    .conte-contacto{
-        display: grid;
-        grid-template-columns: 1fr;
+    .p-experiencia{
+        font-size: 1.5rem;
+    }
+    .frase{
+        font-size: 1.8rem;
+    }
+    .conte-img-item-contacto{
+        margin: 0;
+        padding: 0;
+    }
+    .img-item-contacto{
+        width: 5rem;
+    }
+    .conte-img-item-contacto, .item-title-dato, .item-dato{
+        margin: 0;
+    }
+    .modall-content iframe{
+        width: 20rem; 
     }
 }
 @media (max-width: 400px){
+    .hv{
+        grid-area: hv;
+    }
+    .maxi{
+        grid-area: maxi;
+    }
+    .app{
+        grid-area: app;
+    }
     .item-proyectos{
-        flex-direction: column;
+        display: grid;
+        grid-template-areas:
+        "hv maxi"
+        "app app";
         margin-top: 1rem;
+    }
+    .lest-item-proyectos{
+        grid-column: 2/2.5;
     }
     .conte-img-item-proyectos{
         margin: 1rem;
+    }
+    .title-sobre-mi{
+        font-size: 2rem;
+        padding: 0 1rem;
+    }
+    .knows-subtitle-portafolio{
+        margin-bottom: 2rem;
+    }
+    .certi-subtitle-portafolio{
+        margin: 2rem 0;
+    }
+    .p-experiencia{
+        font-size: 1.1rem;
+    }
+    .frase{
+        font-size: 1.2rem;
+    }
+    .nom-item-estudios{
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+    }
+    .lugar-item-estudios{
+        font-size: 0.9rem;
+        padding: 0;
+    }
+    .set-item-estudios{
+        padding: 0;
+    }
+    .set-item-contacto a{
+        font-size: 0.8rem;
+    }
+    .navbar{
+        padding: 0;
+    }
+    .p-sobre-mi{
+        text-align:center;
+    }
+    .modall-content iframe{
+        width: 18rem; 
     }
 }
 @media (max-width: 300px){

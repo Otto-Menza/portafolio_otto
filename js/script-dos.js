@@ -22,5 +22,6 @@ document.getElementById('open-video').addEventListener('click', function() {
     stopYouTubeVideo();
   });
 
+  const modoBoton = document.getElementById("modoBoton");
 
-    
+ 
