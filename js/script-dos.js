@@ -23,5 +23,3 @@ document.getElementById('open-video').addEventListener('click', function() {
   });
 
   const modoBoton = document.getElementById("modoBoton");
-
- 
