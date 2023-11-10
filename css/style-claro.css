@@ -133,6 +133,10 @@ body{
 .nombre-otto:hover{
     color: #1C930D;
 }
+.navbar-toggler{
+    background-color: #EDEDED;
+    border: 2px solid #252525;
+}
 
 
 /* video!!!! */
